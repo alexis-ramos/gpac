@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Footer = () => (
-  <div className="container w-full bg-side">
+  <div className="w-full px-8 bg-side">
     <footer className="flex flex-col text-center md:flex-row md:justify-between py-2">
       <p>GPAC Directory v0.1 - 2019</p>
 
