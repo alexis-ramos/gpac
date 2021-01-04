@@ -42,12 +42,14 @@ const Login = () => (
           </label>
 
           <div className="flex flex-col w-full my-5">
-            <button
-              type="submit"
-              className="bg-green-600 hover:bg-green-400 hover:text-white block w-full py-1 md:py-3 rounded focus:outline-none mb-6"
-            >
-              Login
-            </button>
+            <Link to="/dashboard">
+              <button
+                type="submit"
+                className="bg-green-600 hover:bg-green-400 hover:text-white block w-full py-1 md:py-3 rounded focus:outline-none mb-6"
+              >
+                Login
+              </button>
+            </Link>
             <Link to="/register">
               <button
                 type="submit"
