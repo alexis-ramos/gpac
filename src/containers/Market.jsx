@@ -4,7 +4,7 @@ import { RiCheckboxBlankCircleFill, RiAddCircleLine } from 'react-icons/ri';
 import ListTalent from '../components/ListTalent';
 
 const Market = () => (
-  <div className="container md:mx-auto flex flex-col">
+  <div className="container md:mx-auto lg:mx-auto xl:mx-auto flex flex-col">
     <div className="flex flex-row justify-between pt-11">
       <div className="flex flex-row items-center ">
         <span className="mr-2">

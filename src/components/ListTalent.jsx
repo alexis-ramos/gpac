@@ -1,8 +1,8 @@
 import React from 'react';
 
 const ListTalent = () => (
-  <div className="flex flex-col w-full">
-    <div className="flex flex-col w-full space-y-5 rounded-lg bg-rowTable md:hidden lg:hidden xl:hidden">
+  <div className="flex flex-col w-full items-center">
+    <div className="flex flex-col w-9/12 space-y-5 rounded-lg bg-rowTable md:hidden lg:hidden xl:hidden">
       <div className="flex flex-row p-4 justify-center">
         <img
           className=" w-20 h-20 rounded-full"
