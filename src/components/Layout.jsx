@@ -3,7 +3,7 @@ import Footer from './Footer';
 import SideNav from './SideNav';
 
 const Layout = ({ children }) => (
-  <div>
+  <div className="flex flex-col h-screen justify-between">
     <SideNav />
     {children}
     <Footer />

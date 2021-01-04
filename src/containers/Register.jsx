@@ -2,7 +2,7 @@ import React from 'react';
 
 const Register = () => (
   <div className="container flex md:justify-center">
-    <div className="flex flex-col w-full md:w-3/5 md:h-auto m-8 bg-rowTable rounded-lg">
+    <div className="flex flex-col w-full md:w-3/5 lg:w-2/4 md:h-auto m-8 bg-rowTable rounded-lg">
       <div className="flex w-full justify-center mt-8">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +61,7 @@ const Register = () => (
           <div className="flex flex-col w-full my-5">
             <button
               type="submit"
-              className="bg-green-600 hover:bg-green-400 hover:text-white block w-full py-1 rounded focus:outline-none mb-6"
+              className="bg-green-600 hover:bg-green-400 hover:text-white block w-full py-1 md:py-3 rounded focus:outline-none"
             >
               Register
             </button>
