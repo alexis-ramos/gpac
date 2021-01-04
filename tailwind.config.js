@@ -15,6 +15,7 @@ module.exports = {
         selected: '#FF3939',
         rowTable: '#34343C',
         hoverData: '#323C4A',
+        button: '#4056F4'
       },
     },
     container: {
