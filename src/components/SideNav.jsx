@@ -1,7 +1,10 @@
 import React from 'react';
 
 const SideNav = () => {
-  if (window.location.pathname === '/') {
+  if (
+    window.location.pathname === '/' ||
+    window.location.pathname === '/register'
+  ) {
     return null;
   }
   return (

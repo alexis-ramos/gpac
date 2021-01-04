@@ -1,7 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-const Login = () => (
+const Register = () => (
   <div className="container flex md:justify-center">
     <div className="flex flex-col w-full md:w-3/5 md:h-auto m-8 bg-rowTable rounded-lg">
       <div className="flex w-full justify-center mt-8">
@@ -33,20 +32,32 @@ const Login = () => (
               className="block w-full bg-advanceSearch p-2 border rounded border-gray-300 text-gray-400 mb-6"
             />
           </label>
+          <label htmlFor="user">
+            Email
+            <input
+              type="text"
+              className="block w-full bg-advanceSearch p-2 border rounded border-gray-300 text-gray-400 mb-6"
+            />
+          </label>
           <label htmlFor="password" className="">
             Password
             <input
               type="password"
-              className="block w-full bg-advanceSearch p-2 border rounded border-gray-300 text-gray-400"
+              className="block w-full bg-advanceSearch p-2 border rounded border-gray-300 text-gray-400 mb-6"
             />
           </label>
-          <label htmlFor="password" className="">
-            Rol
-            <input
-              type="text"
-              className="block w-full bg-advanceSearch p-2 border rounded border-gray-300 text-gray-400"
-            />
-          </label>
+
+          <label htmlFor="rol">Rol</label>
+          <select
+            name="rol"
+            id="rol"
+            className="w-full rounded bg-advanceSearch"
+          >
+            <option value="recruiter">Recruiter</option>
+            <option value="coach"> Coach</option>
+            <option value="director">Director</option>
+          </select>
+
           <div className="flex flex-col w-full my-5">
             <button
               type="submit"
@@ -54,14 +65,6 @@ const Login = () => (
             >
               Register
             </button>
-            <Link to="/register">
-              <button
-                type="submit"
-                className=" bg-blue-600 hover:bg-blue-400 hover:text-white block w-full py-1 rounded focus:outline-none"
-              >
-                Register
-              </button>
-            </Link>
           </div>
         </form>
       </div>
@@ -69,4 +72,4 @@ const Login = () => (
   </div>
 );
 
-export default Login;
+export default Register;
