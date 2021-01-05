@@ -34,12 +34,6 @@ const PictureAndButtons = () => (
       >
         <span className="font-monse font-semibold text-xs">Discard</span>
       </button>
-      {/* <button
-        type="button"
-        className="flex flex-row px-2 py-2 text-xs font-medium leading-6 text-center text-white transition bg-transparent border-2 border-gray-400 hover:bg-gray-500  ripple focus:outline-none"
-      >
-        View Profile
-      </button> */}
     </div>
   </div>
 );

@@ -1,17 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Profile from '../components/Profile';
 
-const Details = () => (
-  <div className="flex flex-row w-full space-y-5 py-10 px-5 mb-5">
-    <button type="submit" className=" bg-button text-white">
-      Profile
-    </button>
-    <button type="submit" className=" bg-button text-white">
-      Resume
-    </button>
-    <button type="submit" className=" bg-button text-white">
-      Social Profiles
-    </button>
-  </div>
-);
+const sections = ['Profile', 'Resume', 'Social Profiles'];
+
+const Details = () => {
+  const [active, setActive] = useState(sections[0]);
+
+  return (
+    <>
+      <div className="flex flex-row w-full">
+        {sections.map((section) => (
+          <button
+            key={section}
+            type="submit"
+            className=" bg-button hover:bg-blue-900 text-white text-left px-2 font-monse text-xs font-bold w-28 h-8 focus:outline-none focus:bg-rowTable hover:rounded md:w-32 md:h-8"
+          >
+            {section}
+          </button>
+        ))}
+      </div>
+      <div className="flex flex-col">
+        <Profile />
+      </div>
+    </>
+  );
+};
 
 export default Details;
