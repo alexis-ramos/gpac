@@ -1,6 +1,7 @@
 import React from 'react';
 import { RiCheckboxBlankCircleFill } from 'react-icons/ri';
 import Attachment from '../components/Attachment';
+import Details from '../components/Details';
 import Notes from '../components/Notes';
 import PictureAndButtons from '../components/PictureAndButtons';
 
@@ -14,9 +15,10 @@ const Talent = () => (
         <h3 className="font-monse font-bold text-lg">New Talent</h3>
       </div>
     </div>
-    <div className="flex flex-col pt-10 md:flex-row lg:flex-row xl:flex-row">
+    <div className="flex flex-col pt-10 md:flex-row md:space-x-10 lg:flex-row  lg:space-x-10 xl:flex-row xl:space-x-10">
       <PictureAndButtons />
-      <div className="flex flex-col pt-10">
+      <div className="flex flex-col pt-10 w-full md:w-3/4 lg:w-3/4 xl:w-3/4">
+        <Details />
         <Attachment />
         <Notes />
       </div>
