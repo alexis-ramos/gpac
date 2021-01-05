@@ -5,6 +5,7 @@ import Dashboard from '../containers/Dashboard';
 import Login from '../containers/Login';
 import Market from '../containers/Market';
 import Register from '../containers/Register';
+import Talent from '../containers/Talent';
 
 const App = () => (
   <BrowserRouter>
@@ -14,6 +15,7 @@ const App = () => (
         <Route exact path="/register" component={Register} />
         <Route exact path="/dashboard" component={Dashboard} />
         <Route exact path="/market" component={Market} />
+        <Route exact path="/market/talent" component={Talent} />
       </Switch>
     </Layout>
   </BrowserRouter>
