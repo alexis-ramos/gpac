@@ -1,11 +1,11 @@
 import React from 'react';
 
 const Profile = () => (
-  <div className=" flex flex-col w-full space-y-5 py-10 px-5 mb-5 rounded-b-lg bg-rowTable">
-    <div className="flex flex-row w-full">
+  <div className=" flex flex-col md:flex-wrap  w-full space-y-5 py-10 px-5 mb-5 rounded-b-lg bg-rowTable">
+    <div className="flex flex-row w-full md:w-2/6">
       <label
         htmlFor="FirsName"
-        className="w-full text-sm font-medium text-gray-500"
+        className="w-full md:w-44 text-sm font-medium text-gray-500"
       >
         First Name
         <div className="w-full mt-1 relative shadow-sm">
@@ -19,17 +19,17 @@ const Profile = () => (
         </div>
       </label>
     </div>
-    <div className="flex flex-row w-full">
+    <div className="flex flex-row w-full  md:w-2/6">
       <label
-        htmlFor="FirsName"
-        className="w-full text-sm font-medium text-gray-500"
+        htmlFor="Lname"
+        className="w-full md:w-44 text-sm font-medium text-gray-500"
       >
-        First Name
+        Last Name
         <div className="w-full mt-1 relative shadow-sm">
           <input
             type="text"
-            name="FName"
-            id="FName"
+            name="Lname"
+            id="Lname"
             className="w-full border-none pl-2 py-2 sm:text-sm bg-search"
             placeholder="Text"
           />
@@ -38,15 +38,15 @@ const Profile = () => (
     </div>
     <div className="flex flex-row w-full">
       <label
-        htmlFor="FirsName"
-        className="w-full text-sm font-medium text-gray-500"
+        htmlFor="status"
+        className="w-full md:w-44 text-sm font-medium text-gray-500"
       >
-        First Name
+        Status
         <div className="w-full mt-1 relative shadow-sm">
           <input
             type="text"
-            name="FName"
-            id="FName"
+            name="status"
+            id="status"
             className="w-full border-none pl-2 py-2 sm:text-sm bg-search"
             placeholder="Text"
           />
@@ -55,15 +55,15 @@ const Profile = () => (
     </div>
     <div className="flex flex-row w-full">
       <label
-        htmlFor="FirsName"
-        className="w-full text-sm font-medium text-gray-500"
+        htmlFor="salary"
+        className="w-full md:w-44 text-sm font-medium text-gray-500"
       >
-        First Name
+        Wish Salary
         <div className="w-full mt-1 relative shadow-sm">
           <input
             type="text"
-            name="FName"
-            id="FName"
+            name="salary"
+            id="salary"
             className="w-full border-none pl-2 py-2 sm:text-sm bg-search"
             placeholder="Text"
           />
@@ -72,15 +72,15 @@ const Profile = () => (
     </div>
     <div className="flex flex-row w-full">
       <label
-        htmlFor="FirsName"
-        className="w-full text-sm font-medium text-gray-500"
+        htmlFor="fTitle"
+        className="w-full md:w-44 text-sm font-medium text-gray-500"
       >
-        First Name
+        Functional Title
         <div className="w-full mt-1 relative shadow-sm">
           <input
             type="text"
-            name="FName"
-            id="FName"
+            name="fTitle"
+            id="fTitle"
             className="w-full border-none pl-2 py-2 sm:text-sm bg-search"
             placeholder="Text"
           />
@@ -89,15 +89,15 @@ const Profile = () => (
     </div>
     <div className="flex flex-row w-full">
       <label
-        htmlFor="FirsName"
-        className="w-full text-sm font-medium text-gray-500"
+        htmlFor="title"
+        className="w-full md:w-44 text-sm font-medium text-gray-500"
       >
-        First Name
+        Title
         <div className="w-full mt-1 relative shadow-sm">
           <input
             type="text"
-            name="FName"
-            id="FName"
+            name="title"
+            id="title"
             className="w-full border-none pl-2 py-2 sm:text-sm bg-search"
             placeholder="Text"
           />
@@ -106,15 +106,15 @@ const Profile = () => (
     </div>
     <div className="flex flex-row w-full">
       <label
-        htmlFor="FirsName"
-        className="w-full text-sm font-medium text-gray-500"
+        htmlFor="seniority"
+        className="w-full md:w-44 text-sm font-medium text-gray-500"
       >
-        First Name
+        Seniority
         <div className="w-full mt-1 relative shadow-sm">
           <input
             type="text"
-            name="FName"
-            id="FName"
+            name="seniority"
+            id="seniority"
             className="w-full border-none pl-2 py-2 sm:text-sm bg-search"
             placeholder="Text"
           />
@@ -123,15 +123,15 @@ const Profile = () => (
     </div>
     <div className="flex flex-row w-full">
       <label
-        htmlFor="FirsName"
-        className="w-full text-sm font-medium text-gray-500"
+        htmlFor="industry"
+        className="w-full md:w-44 text-sm font-medium text-gray-500"
       >
-        First Name
+        Industry
         <div className="w-full mt-1 relative shadow-sm">
           <input
             type="text"
-            name="FName"
-            id="FName"
+            name="industry"
+            id="industry"
             className="w-full border-none pl-2 py-2 sm:text-sm bg-search"
             placeholder="Text"
           />
@@ -140,15 +140,15 @@ const Profile = () => (
     </div>
     <div className="flex flex-row w-full">
       <label
-        htmlFor="FirsName"
-        className="w-full text-sm font-medium text-gray-500"
+        htmlFor="location"
+        className="w-full md:w-44 text-sm font-medium text-gray-500"
       >
-        First Name
+        Location
         <div className="w-full mt-1 relative shadow-sm">
           <input
             type="text"
-            name="FName"
-            id="FName"
+            name="location"
+            id="location"
             className="w-full border-none pl-2 py-2 sm:text-sm bg-search"
             placeholder="Text"
           />
@@ -157,15 +157,15 @@ const Profile = () => (
     </div>
     <div className="flex flex-row w-full">
       <label
-        htmlFor="FirsName"
-        className="w-full text-sm font-medium text-gray-500"
+        htmlFor="phone"
+        className="w-full md:w-44 text-sm font-medium text-gray-500"
       >
-        First Name
+        Phone
         <div className="w-full mt-1 relative shadow-sm">
           <input
-            type="text"
-            name="FName"
-            id="FName"
+            type="number"
+            name="phone"
+            id="phone"
             className="w-full border-none pl-2 py-2 sm:text-sm bg-search"
             placeholder="Text"
           />
@@ -174,15 +174,15 @@ const Profile = () => (
     </div>
     <div className="flex flex-row w-full">
       <label
-        htmlFor="FirsName"
-        className="w-full text-sm font-medium text-gray-500"
+        htmlFor="email"
+        className="w-full md:w-44 text-sm font-medium text-gray-500"
       >
-        First Name
+        Email
         <div className="w-full mt-1 relative shadow-sm">
           <input
-            type="text"
-            name="FName"
-            id="FName"
+            type="email"
+            name="email"
+            id="email"
             className="w-full border-none pl-2 py-2 sm:text-sm bg-search"
             placeholder="Text"
           />
@@ -191,15 +191,15 @@ const Profile = () => (
     </div>
     <div className="flex flex-row w-full">
       <label
-        htmlFor="FirsName"
-        className="w-full text-sm font-medium text-gray-500"
+        htmlFor="company"
+        className="w-full md:w-44 text-sm font-medium text-gray-500"
       >
-        First Name
+        Company
         <div className="w-full mt-1 relative shadow-sm">
           <input
             type="text"
-            name="FName"
-            id="FName"
+            name="company"
+            id="company"
             className="w-full border-none pl-2 py-2 sm:text-sm bg-search"
             placeholder="Text"
           />
@@ -208,15 +208,15 @@ const Profile = () => (
     </div>
     <div className="flex flex-row w-full">
       <label
-        htmlFor="FirsName"
-        className="w-full text-sm font-medium text-gray-500"
+        htmlFor="process"
+        className="w-full md:w-44  text-sm font-medium text-gray-500"
       >
-        First Name
+        Status for Process
         <div className="w-full mt-1 relative shadow-sm">
           <input
             type="text"
-            name="FName"
-            id="FName"
+            name="process"
+            id="process"
             className="w-full border-none pl-2 py-2 sm:text-sm bg-search"
             placeholder="Text"
           />
@@ -225,32 +225,15 @@ const Profile = () => (
     </div>
     <div className="flex flex-row w-full">
       <label
-        htmlFor="FirsName"
-        className="w-full text-sm font-medium text-gray-500"
+        htmlFor="relocation"
+        className="w-full md:w-44 text-sm font-medium text-gray-500"
       >
-        First Name
+        Relocation
         <div className="w-full mt-1 relative shadow-sm">
           <input
             type="text"
-            name="FName"
-            id="FName"
-            className="w-full border-none pl-2 py-2 sm:text-sm bg-search"
-            placeholder="Text"
-          />
-        </div>
-      </label>
-    </div>
-    <div className="flex flex-row w-full">
-      <label
-        htmlFor="FirsName"
-        className="w-full text-sm font-medium text-gray-500"
-      >
-        First Name
-        <div className="w-full mt-1 relative shadow-sm">
-          <input
-            type="text"
-            name="FName"
-            id="FName"
+            name="relocation"
+            id="relocation"
             className="w-full border-none pl-2 py-2 sm:text-sm bg-search"
             placeholder="Text"
           />

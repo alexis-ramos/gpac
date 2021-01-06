@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Profile from '../components/Profile';
+import Profile from './Profile';
 
 const sections = ['Profile', 'Resume', 'Social Profiles'];
 
