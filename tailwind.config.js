@@ -15,7 +15,8 @@ module.exports = {
         selected: '#FF3939',
         rowTable: '#34343C',
         hoverData: '#323C4A',
-        button: '#4056F4'
+        button: '#4056F4',
+        divider: '#7B868D'
       },
     },
     container: {
@@ -28,7 +29,9 @@ module.exports = {
       },
     },
   },
-  plugins: [require('@tailwindcss/forms')],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
   variants: {
     extend: {
       backgroundColor: ['checked'],
