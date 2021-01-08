@@ -30,9 +30,6 @@ const Market = () => (
     </div>
     <div className="flex flex-col pt-16 pb-8 space-y-4">
       <ListTalent />
-      <ListTalent />
-      <ListTalent />
-      <ListTalent />
     </div>
   </div>
 );
