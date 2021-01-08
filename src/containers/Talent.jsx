@@ -22,7 +22,7 @@ const Talent = () => (
       </div>
       <div className="flex flex-col pt-10 md:flex-row md:space-x-10 lg:flex-row  lg:space-x-10 xl:flex-row xl:space-x-10">
         <PictureAndButtons />
-        <div className="flex flex-col  w-full md:w-3/4 lg:w-3/4 xl:w-3/4">
+        <div className="flex flex-col pt-6 md:pt-0  w-full md:w-3/4 lg:w-3/4 xl:w-3/4">
           <Details />
           <Attachment />
           <Notes />
