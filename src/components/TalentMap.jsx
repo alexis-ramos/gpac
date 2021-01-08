@@ -17,6 +17,9 @@ const TalentMap = () => {
       height="100%"
       mapStyle="mapbox://styles/mapbox/dark-v9"
       mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
+      onViewStateChange={(newViewport) => {
+        setViewport({ ...newViewport });
+      }}
     />
   );
 };

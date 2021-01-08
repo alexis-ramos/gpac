@@ -13,10 +13,22 @@ const MapTalent = () => (
       <ShowOnly />
     </div>
     <div className=" flex flex-col w-full md:flex-row">
-      <div className="w-full md:w-2/5">
+      <div className="w-full h-1/3 overflow-auto md:w-2/5 md:h-full">
+        <TalentUbication />
+        <TalentUbication />
+        <TalentUbication />
+        <TalentUbication />
+        <TalentUbication />
+        <TalentUbication />
+        <TalentUbication />
+        <TalentUbication />
+        <TalentUbication />
+        <TalentUbication />
+        <TalentUbication />
+        <TalentUbication />
         <TalentUbication />
       </div>
-      <div className="w-full md:w-3/5">
+      <div className="w-full h-2/3 md:h-full md:w-3/5">
         <TalentMap />
       </div>
     </div>
