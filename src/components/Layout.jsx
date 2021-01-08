@@ -4,7 +4,7 @@ import SideNav from './SideNav';
 
 const Layout = ({ children }) => (
   <div className="flex flex-col h-screen justify-between">
-    <div className="flex flex-row">
+    <div className="flex flex-row w-full">
       <SideNav />
       {children}
     </div>

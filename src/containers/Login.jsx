@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Login = () => (
-  <div className="container flex md:justify-center">
+  <div className="flex flex-row w-full md:justify-center lg:justify-center">
     <div className="flex flex-col w-full md:w-3/5 lg:w-2/4 md:h-auto m-8 bg-rowTable rounded-lg">
       <div className="flex w-full justify-center mt-8">
         <svg
